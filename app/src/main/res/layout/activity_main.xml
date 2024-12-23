@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iron Man Workout Tracker"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:textColor="@color/text_color"
+        android:fontFamily="serif"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/exerciseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Название упражнения"
+        android:padding="12dp"
+    android:minHeight="48dp"
+
+    android:background="@drawable/edit_text_background"
+        android:textColor="@color/text_color" />
+
+    <EditText
+        android:id="@+id/setsInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Количество подходов"
+        android:inputType="number"
+        android:padding="12dp"
+    android:minHeight="48dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@color/text_color" />
+
+    <EditText
+        android:id="@+id/repsInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Количество повторений"
+        android:inputType="number"
+        android:padding="12dp"
+    android:minHeight="48dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@color/text_color" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/button_text_color" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textColor="@color/text_color" />
+
+    <TextView
+        android:id="@+id/exerciseCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textColor="@color/text_color" />
+
+    <TextView
+        android:id="@+id/completedExercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/text_color" />
+
+</LinearLayout>
